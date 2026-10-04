@@ -29,7 +29,7 @@ BentoSpend is a React expense tracker for Reactive Accelerator Batch 5. It conve
 - Context API + `useReducer` (expense CRUD)
 - `useState` for filters, modals, forms, and toast UI
 - Tailwind CSS v4 (CDN browser build)
-- Semantic HTML + SVG assets from the assignment template
+- Semantic HTML + SVG assets from the provided HTML template
 
 ## Getting Started
 
