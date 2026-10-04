@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BentoSpend | Smart Expense & Budget Manager</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primary: #FAD4C0;
+        --color-primary-hover: #f5c0a7;
+        --color-secondary: #80A1C1;
+        --color-secondary-hover: #6d91b3;
+        --color-success: #16A34A;
+        --color-warning: #D97706;
+        --color-danger: #DC2626;
+        --color-surface: #FFF5E6;
+        --color-surface-alt: #FAFAF7;
+        --color-card: #FFFFFF;
+        --color-text-main: #111827;
+        --color-text-muted: #6B7280;
+
+        --font-sans: 'Inter', sans-serif;
+        --font-mono: 'JetBrains Mono', monospace;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen flex flex-col antialiased selection:bg-[#FAD4C0] selection:text-[#111827]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
